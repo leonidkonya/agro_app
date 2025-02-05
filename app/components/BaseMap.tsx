@@ -103,16 +103,16 @@ const BaseMap = ({ center, zoom, plots = [], onPlotClick, additionalLayers = [] 
     mapInstance.current = map
 
     // Log final layer configuration
-    console.log(
-      "Final layer configuration:",
-      map
-        .getLayers()
-        .getArray()
-        .map((layer) => ({
-          zIndex: layer.getZIndex(),
-          source: layer.getSource()?.constructor.name,
-        })),
-    )
+    // console.log(
+    //   "Final layer configuration:",
+    //   map
+    //     .getLayers()
+    //     .getArray()
+    //     .map((layer) => ({
+    //       zIndex: layer.getZIndex(),
+    //       source: layer.getSource()?.constructor.name,
+    //     })),
+    // )
 
     return () => {
       if (mapInstance.current) {
