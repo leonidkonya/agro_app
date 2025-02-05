@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState, useCallback } from "react"
-import L from "leaflet"
+// import L from "leaflet"
+import * as L from "leaflet"
 import "leaflet/dist/leaflet.css"
 import { Button } from "@/components/ui/button"
 
