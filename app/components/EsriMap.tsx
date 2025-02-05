@@ -43,7 +43,7 @@ const EsriMap: React.FC<EsriMapProps> = ({ center, zoom, plots, onPlotClick, add
         attributions: "Tiles © Esri",
       }),
       zIndex: 0,
-      name: "EsriSatellite",
+      // name: "EsriSatellite",
     })
 
     console.log("Esri layer created:", esriLayer)
