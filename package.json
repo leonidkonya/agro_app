@@ -63,7 +63,7 @@
     "mapbox-gl": "latest",
     "ol": "latest",
     "geotiff": "latest",
-    "react-leaflet": "latest"
+    "react-leaflet": "4.2.1"
   },
   "devDependencies": {
     "@types/node": "^22",
